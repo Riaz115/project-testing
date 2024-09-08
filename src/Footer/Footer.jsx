@@ -5,30 +5,30 @@ import { FiArrowUpRight } from "react-icons/fi";
 import "./Footer.css";
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" data-aos="zoom-in-up" data-aos-duration="1000">
       <div className="for-footer">
-        <h1 className="heading">Your NeXt</h1>
+        <h1 className="heading">
+          Your Ne<span className=" text-primary">X</span>t
+        </h1>
         <div className="for-links">
           <a href="#" className="link">
             About <FiArrowUpRight />
           </a>
-          <a href="#" className="link">
-            Stack SneXt <FiArrowUpRight />
-          </a>
+
           <a href="#" className="link">
             Resources <FiArrowUpRight />
           </a>
-          <a href="#" className="link">
-            Airdrop <FiArrowUpRight />
-          </a>
         </div>
         <div className="icons">
-          <div className="for-icon">
+          <a
+            href="https://t.me/YXCOINPortal"
+            target="/blank"
+            className="for-icon">
             <FaTelegramPlane className="icon" />
-          </div>
-          <div className="for-icon">
+          </a>
+          <a href="http://x.com/yxcoins" target="/blank" className="for-icon">
             <FaDiscord className="icon" />
-          </div>
+          </a>
         </div>
         <p className="copy-right">@Copyright 2024, All Rights Reserved </p>
       </div>

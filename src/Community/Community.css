@@ -50,6 +50,20 @@
   );
   box-shadow: 0px -2px 5px rgba(255, 255, 255, 0.7),
     0px 2px 5px rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.community .for-community .left-side .buttons .btn:hover {
+  transform: scale(1.05);
+  color: white;
+  background: linear-gradient(
+    to right,
+    #020260 10%,
+    #020278 72%,
+    #0403cd 11%,
+    #050589 34%,
+    #03038a 56%
+  );
 }
 
 .community .for-community .left-side .buttons .btn .icon {
@@ -105,6 +119,10 @@
     font-size: 28px;
   }
 
+  .community .for-community .left-side .buttons {
+    align-items: center;
+    justify-content: center;
+  }
   .community .for-community .left-side .buttons .btn {
     font-size: 16px;
   }

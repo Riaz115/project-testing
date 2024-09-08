@@ -6,7 +6,7 @@ import "./Community.css";
 
 function Community() {
   return (
-    <div className="community">
+    <div className="community" data-aos="zoom-in-up" data-aos-duration="1000">
       <div className="for-community">
         <div className="left-side">
           <h1 className="heading">join the community</h1>
@@ -15,13 +15,13 @@ function Community() {
             ratione ad perspiciatis quia beatae ex enim
           </p>
           <div className="buttons">
-            <button className="btn">
+            <a href="https://t.me/YXCOINPortal" target="/blank" className="btn">
               <FaTelegramPlane className="icon" /> Telegram
-            </button>
-            <button className="btn">
+            </a>
+            <a href="http://x.com/yxcoins" target="/blank" className="btn">
               <FaDiscord className="icon" />
               Discord
-            </button>
+            </a>
           </div>
         </div>
         <div className="right-side">

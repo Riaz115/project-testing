@@ -7,7 +7,11 @@ import { FiCircle } from "react-icons/fi";
 
 function About() {
   return (
-    <div className="about" id="about">
+    <div
+      className="about"
+      id="about"
+      data-aos="zoom-in-up"
+      data-aos-duration="1000">
       <div className="for-about">
         <div className="left-side ">
           <h1 className="heading">TOKENOMICS</h1>
@@ -21,19 +25,23 @@ function About() {
           </p>
           <p className="new-para">
             <FaCircleNotch className="circle-one" />
-            my name is muhammad riaz ahmad
+            Dev's wallet will have a maximum of 10%, anything earned over that
+            will be at Dev's Discretion.
           </p>
           <p className="new-para">
             <FaRegCircle className="circle-two" />
-            my name is muhammad riaz ahmad
+            Dev's wallet will have a maximum of 10%, anything earned over that
+            will be at Dev's Discretion.
           </p>
           <p className="new-para">
             <FiCircle className="circle-three" />
-            my name is muhammad riaz ahmad
+            Dev's wallet will have a maximum of 10%, anything earned over that
+            will be at Dev's Discretion.
           </p>
           <p className="new-para">
             <FiCircle className="circle-four" />
-            my name is muhammad riaz ahmad
+            Dev's wallet will have a maximum of 10%, anything earned over that
+            will be at Dev's Discretion.
           </p>
         </div>
         <div className="right-side ">

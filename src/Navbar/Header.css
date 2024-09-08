@@ -61,21 +61,104 @@
     #03038a 86%
   );
   border-radius: 10px;
+  transition: all 0.5s ease-in-out;
 }
 
 .header .right-side .btn:hover {
-  background-color: blue;
+  transform: scale(1.05);
+  color: white;
+  background: linear-gradient(
+    to right,
+    #020260 10%,
+    #020278 72%,
+    #0403cd 11%,
+    #050589 34%,
+    #03038a 56%
+  );
+}
+
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
 }
 
 /* this is for responsive */
 
 @media (max-width: 767px) {
+  .header {
+    padding: 20px 30px;
+  }
+
   .header .left-side .for-logo {
     font-size: 30px;
   }
 
+  .navbar-dropdown {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    gap: 10px;
+    padding: 20px 10px;
+  }
+
+  .navbar-dropdown .link {
+    font-size: 16px;
+    padding: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .navbar-dropdown .link:hover {
+    color: blue;
+  }
+
+  .navbar-dropdown .btn {
+    padding: 5px 20px;
+    border: none;
+    color: white;
+    background: linear-gradient(
+      to right,
+      #020260 0%,
+      #020278 7%,
+      #0403cd 31%,
+      #050589 64%,
+      #03038a 86%
+    );
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .navbar-dropdown .btn:hover {
+    transform: scale(1.05);
+    color: white;
+    background: linear-gradient(
+      to right,
+      #020260 10%,
+      #020278 72%,
+      #0403cd 11%,
+      #050589 34%,
+      #03038a 56%
+    );
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .header .right-side .for-btn {
+    display: none;
+  }
+
+  .header .left-side {
+    gap: 10px;
+  }
+
   .header .left-side .link-text {
     display: none;
+  }
+
+  .header .right-side {
+    gap: 30px;
   }
 }
 
@@ -83,53 +166,10 @@
   .header .left-side .for-logo {
     font-size: 25px;
   }
-
-  .header .right-side {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-  }
 }
 
-@media (max-width: 470px) {
-  .header {
-    padding: 20px 30px;
-  }
-
+@media (max-width: 400px) {
   .header .left-side .for-logo {
-    font-size: 23px;
-    margin: auto 1px;
-    padding: auto 5px;
-  }
-
-  .header .right-side .btn {
-    font-size: 12px;
-    padding: 5px 15px;
-  }
-}
-
-@media (max-width: 380px) {
-  .header {
-    padding: 20px;
-  }
-
-  .header .left-side .for-logo {
-    font-size: 20px;
-  }
-
-  .header .right-side .btn {
-    font-size: 10px;
-    padding: 5px 15px;
-  }
-}
-
-@media (max-width: 330px) {
-  .header .left-side .for-logo {
-    font-size: 16px;
-  }
-
-  .header .right-side .icon {
-    font-size: 16px;
+    font-size: 22px;
   }
 }

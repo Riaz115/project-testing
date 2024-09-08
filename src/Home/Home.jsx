@@ -7,7 +7,11 @@ import homeImage from "../Assests/home-end.png";
 import "./Home.css";
 function Home() {
   return (
-    <section id="home" className="home">
+    <section
+      id="home"
+      className="home"
+      data-aos="zoom-in-up"
+      data-aos-duration="1000">
       <div className="for-home ">
         <div className="left-side">
           <p className="iconAndPara">
@@ -25,7 +29,7 @@ function Home() {
             doloremque odit repellat omnis suscipit
           </p>
           <div className="for-btn">
-            <button className="my-btn">Buy neXt</button>
+            <button className="my-btn">Buy YX</button>
           </div>
 
           <div className="support">

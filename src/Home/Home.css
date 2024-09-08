@@ -55,7 +55,8 @@
 }
 
 .home .for-home .left-side .for-btn .my-btn {
-  padding: 10px 20px;
+  padding: 10px 70px;
+  font-size: 14px;
   border: none;
   color: white;
   background: linear-gradient(
@@ -67,6 +68,20 @@
     #03038a 86%
   );
   border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.home .for-home .left-side .for-btn .my-btn:hover {
+  transform: scale(1.05);
+  color: white;
+  background: linear-gradient(
+    to right,
+    #020260 10%,
+    #020278 72%,
+    #0403cd 11%,
+    #050589 34%,
+    #03038a 56%
+  );
 }
 
 .home .for-home .left-side .support {

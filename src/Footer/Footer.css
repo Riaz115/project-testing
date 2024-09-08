@@ -31,6 +31,7 @@
 .footer .for-footer .for-links .link {
   font-size: 16px;
   padding: 0px 10px;
+  font-weight: 500;
 }
 
 .footer .for-footer .icons {
@@ -65,19 +66,13 @@
 .footer .for-footer .copy-right {
   font-size: 16px;
   margin: 20px 0px;
+  color: rgb(231, 209, 9);
+  font-weight: 700;
 }
 
 @media (max-width: 767px) {
   .footer {
     padding: 50px 50px 100px;
-  }
-
-  .footer .for-footer .for-links {
-    gap: 10px;
-  }
-
-  .footer .for-footer .for-links .link {
-    font-size: 13px;
   }
 }
 
@@ -88,14 +83,6 @@
 
   .footer .for-footer .heading {
     font-size: 35px;
-  }
-
-  .footer .for-footer .for-links {
-    gap: 15px;
-  }
-
-  .footer .for-footer .for-links .link {
-    font-size: 14px;
   }
 
   .footer .for-footer .copy-right {

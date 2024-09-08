@@ -4,7 +4,7 @@ import "./Charity.css";
 
 function Charity() {
   return (
-    <div className="charity">
+    <div className="charity" data-aos="zoom-in-up" data-aos-duration="1000">
       <div className="for-charity">
         <div className="left-side">
           <div className="for-image">
