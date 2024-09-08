@@ -1,0 +1,126 @@
+.about {
+  padding: 10px 50px;
+  background-image: url("../Assests//second\ right.png");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.about .for-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.about .for-about .left-side {
+  max-width: 50%;
+}
+
+.about .for-about .left-side .heading {
+  font-size: 45px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.about .for-about .left-side .about-para {
+  font-size: 16px;
+  padding: 10px 0px;
+}
+
+.about .for-about .left-side .new-para {
+  font-size: 16px;
+  margin: 5px 0px;
+}
+
+.about .for-about .left-side .new-para .circle-one {
+  font-size: 30px;
+  color: yellow;
+  padding-right: 10px;
+}
+
+.about .for-about .left-side .new-para .circle-two {
+  font-size: 30px;
+  color: rgb(28, 220, 226);
+  padding-right: 10px;
+}
+
+.about .for-about .left-side .new-para .circle-three {
+  font-size: 30px;
+  color: rgb(28, 220, 226);
+  padding-right: 10px;
+}
+
+.about .for-about .left-side .new-para .circle-four {
+  font-size: 30px;
+  color: rgb(22, 106, 216);
+  padding-right: 10px;
+}
+
+.about .for-about .right-side {
+  max-width: 50%;
+  box-shadow: inset 2px black;
+}
+
+.about .for-about .right-side .for-image {
+  height: 100%;
+  width: 100%;
+}
+
+.about .for-about .right-side .for-image img {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .about .for-about {
+    flex-direction: column-reverse;
+  }
+
+  .about .for-about .left-side {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .about .for-about .right-side {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 556px) {
+  .about .for-about .left-side .heading {
+    font-size: 35px;
+  }
+
+  .about .for-about .left-side .about-para {
+    font-size: 14px;
+  }
+
+  .about .for-about .left-side .new-para {
+    font-size: 14px;
+  }
+
+  .about {
+    padding: 10px 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about .for-about .left-side .heading {
+    font-size: 30px;
+  }
+
+  .about .for-about .left-side .about-para {
+    font-size: 13px;
+  }
+
+  .about .for-about .left-side .new-para {
+    font-size: 13px;
+  }
+
+  .about {
+    padding: 10px 20px;
+  }
+}

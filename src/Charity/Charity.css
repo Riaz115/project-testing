@@ -1,0 +1,110 @@
+.charity {
+  padding: 10px 50px;
+  background-image: url("../Assests/charity-bg.png");
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.charity .for-charity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.charity .for-charity .left-side {
+  max-width: 50%;
+}
+
+.charity .for-charity .left-side .for-image {
+  height: 100%;
+  width: 100%;
+}
+
+.charity .for-charity .left-side .for-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.charity .for-charity .right-side {
+  max-width: 50%;
+}
+
+.charity .for-charity .right-side .heading {
+  font-size: 45px;
+  text-transform: uppercase;
+  margin: 10px 0px;
+  font-weight: 800;
+  color: white;
+}
+
+.charity .for-charity .right-side .para {
+  max-width: 80%;
+}
+
+.charity .for-charity .right-side .second-para {
+  max-width: 80%;
+}
+
+@media (max-width: 1200px) {
+  .charity .for-charity .right-side .para {
+    max-width: 100%;
+    font-size: 14px;
+  }
+
+  .charity .for-charity .right-side .second-para {
+    max-width: 100%;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .charity .for-charity {
+    flex-direction: column;
+  }
+
+  .charity .for-charity .left-side {
+    max-width: 70%;
+  }
+
+  .charity .for-charity .right-side {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .charity .for-charity .left-side {
+    max-width: 80%;
+  }
+
+  .charity .for-charity .right-side .heading {
+    font-size: 40px;
+  }
+
+  .charity .for-charity .right-side .para {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 556px) {
+  .charity {
+    padding: 10px 30px;
+  }
+
+  .charity .for-charity .left-side {
+    max-width: 100%;
+  }
+
+  .charity .for-charity .right-side .heading {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 400px) {
+  .charity {
+    padding: 10px 20px;
+  }
+
+  .charity .for-charity .right-side .heading {
+    font-size: 30px;
+  }
+}

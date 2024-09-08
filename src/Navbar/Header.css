@@ -1,0 +1,135 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.header .left-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header .left-side .for-logo {
+  font-size: 36px;
+  padding: 5px 10px;
+  color: white;
+}
+
+.header .left-side .link-text {
+  font-size: 16px;
+  padding: auto 5px;
+  margin: auto 0px;
+  font-weight: 400;
+}
+
+.header .left-side .link-text span {
+  padding: 0px 10px;
+  font-size: 20px;
+}
+
+.header .right-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.header .right-side .icon {
+  padding: auto 5px;
+  margin: auto 0px;
+  font-size: 20px;
+}
+
+.header .right-side .for-btn {
+  margin: auto 1px;
+  padding: auto 5px;
+}
+
+.header .right-side .btn {
+  padding: 5px 20px;
+  border: none;
+  color: white;
+  background: linear-gradient(
+    to right,
+    #020260 0%,
+    #020278 7%,
+    #0403cd 31%,
+    #050589 64%,
+    #03038a 86%
+  );
+  border-radius: 10px;
+}
+
+.header .right-side .btn:hover {
+  background-color: blue;
+}
+
+/* this is for responsive */
+
+@media (max-width: 767px) {
+  .header .left-side .for-logo {
+    font-size: 30px;
+  }
+
+  .header .left-side .link-text {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .header .left-side .for-logo {
+    font-size: 25px;
+  }
+
+  .header .right-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 470px) {
+  .header {
+    padding: 20px 30px;
+  }
+
+  .header .left-side .for-logo {
+    font-size: 23px;
+    margin: auto 1px;
+    padding: auto 5px;
+  }
+
+  .header .right-side .btn {
+    font-size: 12px;
+    padding: 5px 15px;
+  }
+}
+
+@media (max-width: 380px) {
+  .header {
+    padding: 20px;
+  }
+
+  .header .left-side .for-logo {
+    font-size: 20px;
+  }
+
+  .header .right-side .btn {
+    font-size: 10px;
+    padding: 5px 15px;
+  }
+}
+
+@media (max-width: 330px) {
+  .header .left-side .for-logo {
+    font-size: 16px;
+  }
+
+  .header .right-side .icon {
+    font-size: 16px;
+  }
+}

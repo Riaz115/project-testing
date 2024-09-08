@@ -1,0 +1,129 @@
+.community {
+  padding: 10px 10px;
+}
+
+.community .for-community {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px;
+  background-image: url("../Assests/end-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.community .for-community .left-side {
+  max-width: 50%;
+}
+
+.community .for-community .left-side .heading {
+  font-size: 45px;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.community .for-community .left-side .para {
+  font-size: 16px;
+}
+
+.community .for-community .left-side .buttons {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  gap: 20px;
+}
+
+.community .for-community .left-side .buttons .btn {
+  font-size: 18px;
+  color: white;
+  padding: 5px 20px;
+  background: linear-gradient(
+    to right,
+    #020260 0%,
+    #020278 7%,
+    #0403cd 31%,
+    #050589 64%,
+    #03038a 86%
+  );
+  box-shadow: 0px -2px 5px rgba(255, 255, 255, 0.7),
+    0px 2px 5px rgba(255, 255, 255, 0.3);
+}
+
+.community .for-community .left-side .buttons .btn .icon {
+  margin-right: 5px;
+}
+
+@media (max-width: 992px) {
+  .community {
+    padding: 10px;
+  }
+
+  .community .for-community .left-side .heading {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 680px) {
+  .community .for-community .left-side {
+    max-width: 60%;
+  }
+
+  .community .for-community .right-side {
+    max-width: 40%;
+  }
+
+  .community .for-community .left-side .heading {
+    font-size: 34px;
+  }
+
+  .community .for-community .left-side .para {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 560px) {
+  .community .for-community {
+    padding: 20px 10px;
+  }
+
+  .community .for-community {
+    flex-direction: column-reverse;
+  }
+
+  .community .for-community .left-side {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .community .for-community .right-side {
+    max-width: 50%;
+  }
+  .community .for-community .left-side .heading {
+    font-size: 28px;
+  }
+
+  .community .for-community .left-side .buttons .btn {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 360px) {
+  .community .for-community .left-side .heading {
+    font-size: 23px;
+  }
+
+  .community .for-community .left-side .para {
+    font-size: 13px;
+  }
+
+  .community .for-community .left-side .buttons {
+    gap: 10px;
+  }
+
+  .community .for-community .left-side .buttons .btn {
+    font-size: 14px;
+  }
+}
