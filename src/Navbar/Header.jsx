@@ -18,7 +18,7 @@ function Header() {
       <div className="header">
         <div className="left-side">
           <h1 className="for-logo">
-            Your Ne<span className="text-primary">X</span>t
+            Your Ne<span className="ex-color">X</span>t
           </h1>
           <p className="link-text">Buy neXt </p>
           <p className="link-text">Markets </p>

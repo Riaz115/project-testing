@@ -8,7 +8,7 @@ function Footer() {
     <div className="footer" data-aos="zoom-in-up" data-aos-duration="1000">
       <div className="for-footer">
         <h1 className="heading">
-          Your Ne<span className=" text-primary">X</span>t
+          Your Ne<span className=" ex-color">X</span>t
         </h1>
         <div className="for-links">
           <a href="#" className="link">

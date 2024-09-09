@@ -20,6 +20,10 @@
   font-weight: 700;
 }
 
+.footer .for-footer .heading .ex-color {
+  color: #03038a;
+}
+
 .footer .for-footer .for-links {
   display: flex;
   align-items: center;
@@ -61,6 +65,10 @@
   );
   box-shadow: 0px -2px 5px rgba(255, 255, 255, 0.7),
     0px 2px 5px rgba(255, 255, 255, 0.3);
+}
+
+.ex-color {
+  color: rgb(1, 1, 71);
 }
 
 .footer .for-footer .copy-right {

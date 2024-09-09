@@ -20,16 +20,23 @@ function Home() {
             NEXT TOKEN
           </p>
           <h1 className="heading">
-            start your philontrophy journey with your ne
-            <span className="ex">X</span>t
+            Start Your Philanthropic Journey With Your Ne
+            <span className="ex-color">X</span>t
           </h1>
           <p className="for-text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Exercitationem veritatis dignissimos ab error. Dignissimos delectus
-            doloremque odit repellat omnis suscipit
+            “The Most Generous Crypto” aims to redefine generosity in the
+            digital age by creating a community-driven cryptocurrency that
+            empowers individuals and organizations to make impactful
+            contributions easily and transparently. Our mission is to build a
+            financial ecosystem where wealth distribution is fair, accessible,
+            and empowering for all, enabling anyone to support causes they care
+            about and drive positive global change. Through innovative
+            blockchain technology, we are committed to making giving easy,
+            secure, and rewarding, fostering a culture of kindness,
+            accountability, and social responsibility.
           </p>
           <div className="for-btn">
-            <button className="my-btn">Buy YX</button>
+            <button className="my-btn">Buy $YX</button>
           </div>
 
           <div className="support">

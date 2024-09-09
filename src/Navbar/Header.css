@@ -18,6 +18,10 @@
   color: white;
 }
 
+.header .left-side .for-logo .ex-color {
+  color: #03038a;
+}
+
 .header .left-side .link-text {
   font-size: 16px;
   padding: auto 5px;

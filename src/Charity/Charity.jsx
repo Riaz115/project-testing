@@ -25,9 +25,9 @@ function Charity() {
             ea aut omnis esse voluptatibus? Rerum eum ducimus odio
           </p>
           <p className="second-para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            repellat rerum commodi soluta eius, quo culpa nobis omnis! Vel
-            laborum nam quaerat ut? Tot
+            Change to CHARITY VOTING and add this, Token holders can vote on
+            which causes or organizations receive donations from
+            the charity wallet.
           </p>
         </div>
       </div>

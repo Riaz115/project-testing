@@ -11,8 +11,7 @@ function Community() {
         <div className="left-side">
           <h1 className="heading">join the community</h1>
           <p className="para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            ratione ad perspiciatis quia beatae ex enim
+            REMOVE THE WORDS AND LEAVE THE TELEGRAM AND DISCORD BUTTONG ONLY
           </p>
           <div className="buttons">
             <a href="https://t.me/YXCOINPortal" target="/blank" className="btn">
